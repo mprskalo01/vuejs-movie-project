@@ -22,27 +22,16 @@
     </v-btn>
     <v-spacer></v-spacer>
   </v-toolbar>
-  <div class="text-center mt-16">
-    <h1>About Us</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto
-      atque. Provident autem magnam at sequi delectus doloremque nam dicta iure
-      nulla, fugit cumque, tempore illo debitis ipsam quis iste.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-      voluptates dolores exercitationem molestias vitae qui voluptatem dicta
-      atque delectus laudantium! Mollitia odit laboriosam facere sequi eum
-      distinctio amet voluptas nisi!
-    </p>
-  </div>
+  <ComComp></ComComp>
   <VueFooter class="footer"></VueFooter>
 </template>
 <script>
 import VueFooter from "@/components/VueFooter.vue";
+import ComComp from "@/components/ComComp.vue";
 export default {
   components: {
     VueFooter,
+    ComComp,
   },
 };
 </script>

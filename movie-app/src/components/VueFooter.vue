@@ -1,8 +1,6 @@
 <template>
-  <v-footer class="d-flex flex-column">
+  <v-footer class="d-flex flex-column bg-teal-lighten-4">
     <div class="bg-teal d-flex w-100 align-center px-4">
-      <strong>Get connected with us on social networks!</strong>
-
       <v-spacer></v-spacer>
 
       <v-btn
@@ -28,3 +26,5 @@ export default {
   }),
 };
 </script>
+
+<style></style>

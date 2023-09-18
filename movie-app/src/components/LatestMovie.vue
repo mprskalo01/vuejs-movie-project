@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="films.length > 0" class="film-list">
-      <h2>Search Results</h2>
+      <h2 class="text-center">Search Results:</h2>
       <v-row>
         <v-col
           cols="12"
@@ -26,7 +26,7 @@
             </v-card-title>
 
             <v-card-subtitle>
-              <h2>{{ film.Year }}</h2>
+              <h2 class="font-weight-black">{{ film.Year }}</h2>
             </v-card-subtitle>
 
             <v-card-actions>
@@ -34,8 +34,8 @@
                 :href="'https://www.imdb.com/title/' + film.imdbID"
                 target="_blank"
                 text
-                class="mt-0 ms-2"
-                color="green-lighten-2"
+                class="mt-0 ms-2 bg-amber"
+                color="black"
                 density="compact"
                 hide-details
                 label="IMDb Link"
@@ -82,5 +82,12 @@ export default {
   word-break: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+  background-color: #b8b5b5;
+  border-radius: 4px;
+}
+.v-application__wrap {
+  background-color: #b2dfdb;
+  background-size: cover;
+  background-position: center;
 }
 </style>

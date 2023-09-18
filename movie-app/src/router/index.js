@@ -1,29 +1,23 @@
 import { createRouter, createWebHistory } from "vue-router";
-import LatestMovie from "@/components/LatestMovie";
-import NavBar from "@/components/NavBar";
-import VueFooter from "@/components/VueFooter";
+import HomeView from "@/views/HomeView";
 import AboutView from "@/views/AboutView";
+import ComView from "@/views/ComView";
 
 const routes = [
   {
     path: "/",
-    name: "LatestMovie",
-    component: LatestMovie,
-  },
-  {
-    path: "/",
-    name: "NavBar",
-    component: NavBar,
-  },
-  {
-    path: "/",
-    name: "VueFooter",
-    component: VueFooter,
+    name: "HomeView",
+    component: HomeView,
   },
   {
     path: "/about",
     name: "AboutView",
     component: AboutView,
+  },
+  {
+    path: "/comments",
+    name: "ComView",
+    component: ComView,
   },
 ];
 
