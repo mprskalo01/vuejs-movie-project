@@ -26,11 +26,12 @@
     <h1>About Us</h1>
     <p>
       Ova web stranica predstavlja projekt u okviru kolegija Informatički
-      projekt II. Naša svrha je upotrijebiti tehnologije poput Vue-a, Vuetify
-      CSS okvira, Vue routera i Axiosa za integraciju odabrane javno dostupne
-      API usluge. Naš cilj je omogućiti korisnicima da pretražuju željene
-      podatke iz svijeta filma.
+      projekt II. Naša svrha je upotrijebiti tehnologije poput Vue-a,<br />
+      Vuetify CSS okvira, Vue routera i Axiosa za integraciju odabrane javno
+      dostupne API usluge. <br />Naš cilj je omogućiti korisnicima da pretražuju
+      željene podatke iz svijeta filma.
     </p>
+    <h3>AUTORI: Mario Prskalo i Luka Raic</h3>
   </div>
   <VueFooter class="footer"></VueFooter>
 </template>

@@ -44,7 +44,7 @@ export default {
       this.clearForm();
     },
     editComment(comment) {
-      this.editedComment = comment;
+      this.editedComment = true;
       this.formData.title = comment.title;
       this.formData.body = comment.body;
     },
