@@ -25,15 +25,11 @@
   <div class="text-center mt-16">
     <h1>About Us</h1>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto
-      atque. Provident autem magnam at sequi delectus doloremque nam dicta iure
-      nulla, fugit cumque, tempore illo debitis ipsam quis iste.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-      voluptates dolores exercitationem molestias vitae qui voluptatem dicta
-      atque delectus laudantium! Mollitia odit laboriosam facere sequi eum
-      distinctio amet voluptas nisi!
+      Ova web stranica predstavlja projekt u okviru kolegija Informatički
+      projekt II. Naša svrha je upotrijebiti tehnologije poput Vue-a, Vuetify
+      CSS okvira, Vue routera i Axiosa za integraciju odabrane javno dostupne
+      API usluge. Naš cilj je omogućiti korisnicima da pretražuju željene
+      podatke iz svijeta filma.
     </p>
   </div>
   <VueFooter class="footer"></VueFooter>
